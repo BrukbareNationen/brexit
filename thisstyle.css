@@ -30,6 +30,7 @@
 .polaroid img{
     max-width: 900px;
     width: 100%;
+    padding-top: 25px;
 }
 
 .insta-text {
@@ -252,6 +253,8 @@ h3 {
 
     .polaroid img {
         position: relative;
+        position: -webkit-sticky;
+        position: sticky;
     }
 
     .phone {
