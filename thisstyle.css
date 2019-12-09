@@ -41,11 +41,14 @@ h2 {
 }
 
 
-
+.polaroid {
+    padding:0;
+}
 .polaroid img{
     max-width: 900px;
     width: 100%;
     padding-top: 25px;
+    margin-bottom: 50px;
 }
 
 .insta-text {
@@ -158,6 +161,7 @@ h3 {
         position: sticky;
         top: 0px;
         left: 0px;
+        margin-bottom: 0px;
     }
     body {
         overflow: visible;
