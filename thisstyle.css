@@ -14,6 +14,18 @@
     background-color: white; 
 }
 
+.mellomtittel hr {
+    width: 100%;
+    border-top-color: black;
+}
+
+.mellomtittel h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+}
+
 .minh800 {
     min-height: 800px;
 }
