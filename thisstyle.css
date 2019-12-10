@@ -17,6 +17,12 @@ h2 {
     background-color: white; 
 }
 
+.innledning {
+    max-width: 700px;
+    margin: auto;
+    
+}
+
 .mellomtittel hr {
     width: 100%;
     border-top-color: black;
@@ -45,7 +51,7 @@ h2 {
     padding:0;
 }
 .polaroid img{
-    max-width: 900px;
+    /* max-width: 900px; */
     width: 100%;
     padding-top: 25px;
     margin-bottom: 50px;
@@ -61,6 +67,11 @@ h2 {
     margin: auto;
     margin-top: 50px;    
     
+}
+
+.innledning p{
+    font-size: 20px;
+    line-height: 35px;
 }
 
 .insta-text p {
@@ -102,6 +113,10 @@ h3 {
     flex-direction: column-reverse;
 }
 
+.ingress h1 {
+    font-size: 50px;
+
+}
 .ingress h3 {
     line-height: 35px;
 }
@@ -130,6 +145,9 @@ h3 {
         margin-top: 50px;
     }
 
+    .ingress h1 {
+        font-size: 40px;
+    }
     .ingress h3 {
         line-height: 35px;
     }
@@ -171,7 +189,10 @@ h3 {
         margin-top: 50px;
     }
     
-
+    .innledning p{
+        font-size: 20px;
+        line-height: 35px;
+    }
     
 
     .section:nth-child(odd)  .row{
@@ -206,7 +227,7 @@ h3 {
     .section{   
         min-height: 600px;
         height: auto;
-        max-height: 2000px;
+        max-height: 3000px;
         
     }
 
@@ -223,10 +244,15 @@ h3 {
         width: 60%;
     }
 
+    .ingress h1 {
+        font-size: 70px;
+    
+    }
+
     .ingress h3 {
         width: 60%;
         margin: auto;
-        font-size: 25px;
+        font-size: 30px;
         line-height: 40px;
     }
     
@@ -266,7 +292,7 @@ h3 {
     .ingress h3 {
         width: 60%;
         margin: auto;
-        font-size: 25px;
+        font-size: 35px;
         line-height: 40px;
     }
 
@@ -285,4 +311,9 @@ h3 {
     }
 
 
+}
+
+#back1 {
+    height: 100vh;
+    min-height: 600px;
 }
