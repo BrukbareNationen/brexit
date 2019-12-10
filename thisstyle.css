@@ -298,8 +298,16 @@ h3 {
 
     .polaroid img {
         position: relative;
+        
+        position: sticky;
+    }
+
+    .stickdiv {
         position: -webkit-sticky;
         position: sticky;
+        height: fit-content;
+        top: 0;
+        left: 0;
     }
 
     .phone {
@@ -316,4 +324,18 @@ h3 {
 #back1 {
     height: 100vh;
     min-height: 600px;
+}
+
+.imgtext {
+    background-color: #00000083;
+    left: 5%;
+    position: absolute;
+    bottom: 10px;
+    max-width: 70%;
+    width: fit-content;
+}
+
+.imgtext p {
+    color: white;
+    line-height: 30px;
 }
