@@ -17,6 +17,10 @@ h2 {
     background-color: white; 
 }
 
+.polaroid {
+    margin-bottom: 50px;
+}
+
 .innledning {
     max-width: 700px;
     margin: auto;
@@ -189,6 +193,7 @@ h3 {
         color: white;
         line-height: 15px;
         font-size: 14px;
+        margin: 5px;
     }
 
     
@@ -206,8 +211,7 @@ h3 {
     }
 
     .polaroid img {
-        position: relative;
-        
+        position: relative;        
         
     }
 
@@ -266,6 +270,7 @@ h3 {
         color: white;
         line-height: 15px;
         font-size: 14px;
+        margin: 7px;
     }
 
 
@@ -351,9 +356,7 @@ h3 {
         color: white;
         line-height: 15px;
         font-size: 14px;
-    }
-
-   
+        margin: 7px;   
 }
 
 @media screen and (min-width: 1200px) {
